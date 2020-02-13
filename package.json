@@ -1,0 +1,26 @@
+{
+  "name": "patrik",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "strip": "node ./posthtml.js",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.2.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "posthtml-remove-tags": "^0.1.0",
+    "posthtml": "^0.12.0",
+    "tailwindcss": "^1.2.0",
+    "typescript": "^3.7.5"
+  }
+}
